@@ -1,0 +1,13 @@
+#N canvas 537 76 719 657 10;
+#X obj 17 9 cubo_automa;
+#X obj 581 66 gemwin;
+#X msg 582 18 create \, 1;
+#X msg 595 38 0 \, destroy;
+#X text 580 122 falta:;
+#X text 585 145 - metro global;
+#X text 585 166 - salvar presets;
+#X obj 278 333 imagem_automa;
+#X obj 282 3 cubo_automa;
+#X obj 22 343 cubo_automa;
+#X connect 2 0 1 0;
+#X connect 3 0 1 0;
