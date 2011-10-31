@@ -1,0 +1,22 @@
+#N canvas 0 149 1126 640 10;
+#X declare -lib Gem;
+#X declare -lib Gem;
+#X obj 131 94 organicvideo;
+#X msg 529 121 0 \, destroy;
+#X obj 518 248 ch_gemwin;
+#X text 669 97 <- create GEM windows;
+#X obj 570 225 hsl 128 15 0 127 0 0 empty empty empty -2 -6 0 8 -262144
+-1 -1 9500 1;
+#X obj 553 202 hsl 128 15 0 127 0 0 empty empty empty -2 -6 0 8 -262144
+-1 -1 0 1;
+#X obj 537 177 hsl 128 15 0 127 0 0 empty empty empty -2 -6 0 8 -262144
+-1 -1 0 1;
+#X text 560 158 change camera position;
+#X msg 518 96 create \, 1;
+#X obj 311 94 organicvideo;
+#X obj 391 478 mascara;
+#X connect 1 0 2 0;
+#X connect 4 0 2 3;
+#X connect 5 0 2 2;
+#X connect 6 0 2 1;
+#X connect 8 0 2 0;
